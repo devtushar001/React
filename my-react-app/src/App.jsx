@@ -61,17 +61,67 @@
 
 // export default App;
 
-import React, { useState } from "react";
+// import React, { useState } from "react";
 
-const App = () => {
-    const [color, setColor] = useState('green');
+// const App = () => {
+//     const [color, setColor] = useState('green');
+//     const changeColor = () => {
+//       setColor('red');
+//     }
 
-    return (
-      <>
-      <div style={{backgoundColor: color, height: '400px'}}></div>
-       <div>This is div</div>
-      </>
-    )
-}
+//     return (
+//       <>
+//       <div style={{backgoundColor: color, height: '200px'}}></div>
+//        <div>This is div</div>
+//        <button onClick={changeColor}>Change</button>
+//       </>
+//     )
+// }
 
-export default App; 
+// import React, { useState } from 'react';
+
+// const App = () => {
+//   const [time, setTime] = useState();
+
+  // setInterval({
+  //   let date = new Date().toLocaleDateString;
+  //   useState(date)
+  // })
+
+
+//     setInterval(() => {
+//       let date = new Date().toLocalString();
+//       let hh = date.getHours(),
+//           mm = date.getMinutes(),
+//           ss = date.getSeconds()
+//       useState([hh, mm, ss])
+//     }, 1000)
+
+//   return (
+//     <>
+//      <div>{time}</div>
+//     </>
+//   )
+// }
+
+// export default App; 
+
+
+// import React from 'react';
+// import React { useState } from 'react';
+
+// const App = () => {
+//     const [data, SetData] = useState();
+
+//     function textChange(e) {
+//       SetData(e.target.value);
+//     }
+//   return (
+//     <>
+//     <h1>{data}</h1>
+//     <input type="text" onChange={textChange} placeholder='Enter Text'/>
+//     </>
+//   )
+// }
+
+// export default App;
