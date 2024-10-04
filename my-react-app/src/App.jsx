@@ -23,40 +23,55 @@
 // export default App;
 
 
-import React from "react";
-import {useState} from 'react'
+// import React from "react";
+// import {useState} from 'react'
+
+// const App = () => {
+//   const [data, SetData] = useState(0);
+
+//   // increment function
+//   function increment() {
+//     SetData(data +1)
+//   }
+
+//   function decrement() {
+//     SetData(data - 1)
+//   }
+
+//   function reset() {
+//     SetData(0)
+//   }
+
+//   function tenIncremet() {
+//     SetData(data + 10)
+//   }
+
+//   return (
+//     <>
+//      <span>{ data }</span>
+//      <br />
+//      <button onClick={increment}> + </button>
+//      <button onClick={tenIncremet}> + 10</button>
+//      <button onClick={decrement}>-</button>
+//      <button onClick={reset}>Reset</button>
+//     </>
+//   )
+
+// }
+
+// export default App;
+
+import React, { useState } from "react";
 
 const App = () => {
-  const [data, SetData] = useState(0);
+    const [color, setColor] = useState('green');
 
-  // increment function
-  function increment() {
-    SetData(data +1)
-  }
-
-  function decrement() {
-    SetData(data - 1)
-  }
-
-  function reset() {
-    SetData(0)
-  }
-
-  function tenIncremet() {
-    useState(data + 10)
-  }
-
-  return (
-    <>
-     <span>{ data }</span>
-     <br />
-     <button onClick={increment}> + </button>
-     <button onClick={tenIncremet}> + 10</button>
-     <button onClick={decrement}>-</button>
-     <button onClick={reset}>Reset</button>
-    </>
-  )
-
+    return (
+      <>
+      <div style={{backgoundColor: color, height: '400px'}}></div>
+       <div>This is div</div>
+      </>
+    )
 }
 
-export default App;
+export default App; 
