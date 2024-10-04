@@ -1,4 +1,4 @@
-console.log('Hello Tusahr');
+// console.log('Hello Tusahr');
 // Array Methods
 // 1. Foreach
 // 2. Filter
@@ -8,7 +8,7 @@ console.log('Hello Tusahr');
 // 6. Push
 
 
-const Number = [7, 5, 8, 9, 11, 17, 21, 13];
+// const Number = [7, 5, 8, 9, 11, 17, 21, 13];
 // const NewNumber = Number.push(23);  // we can't push a number to array like this
 // console.log(NewNumber)  // it's return the length of array
 // Number.push(17);
@@ -31,4 +31,8 @@ const Number = [7, 5, 8, 9, 11, 17, 21, 13];
 
 // const newNumber = Number.unshift(12);
 // console.log(newNumber); // 9
+
+// const fruits = ['Apple', 'Banana', 'Grapes', 'Mangoes'];
+// fruits.splice(0, 3, 'Keewi');
+// console.log(fruits);
 
