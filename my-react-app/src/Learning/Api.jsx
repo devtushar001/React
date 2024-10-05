@@ -1,0 +1,35 @@
+import { useEffect, useState } from "react"
+
+const Api = () => {
+  const [data, SetData] = useState([]);
+
+  useEffect(() => {
+    fetch('https://dummyjson.com/recipes').then((res) => {
+      return res.json()
+    }).then((data) => {
+      SetData(data.recipes);
+      // console.log(data.recipes)
+    }).catch((err) => {
+      console.log(err)
+    })
+  }, [])
+
+  return (
+    <>
+     {
+      data.map((a, b, c) => {
+        // console.log(a);
+        // console.log(a.name)
+        return (
+          <>
+            <img width="120px" src={a.image} alt="" />
+            <p>{a.name}</p>
+          </>
+        )
+      })
+     }
+    </>
+  )
+}
+
+export default Api;

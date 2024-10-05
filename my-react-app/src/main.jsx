@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import UseEffect from './Learning/UseEffect'
+import Api from './Learning/Api'
+// import UseEffect from './Learning/UseEffect'
 // import TodoList from './todoList/todoList'
 // import FormState from './FormState'
 // import FormInput from './FormInput'
@@ -12,6 +13,7 @@ createRoot(document.getElementById('root')).render(
     {/* <FormInput /> */}
     {/* <FormState /> */}
     {/* <TodoList /> */}
-    <UseEffect />
+    {/* <UseEffect /> */}
+    <Api />
   </StrictMode>,
 )
