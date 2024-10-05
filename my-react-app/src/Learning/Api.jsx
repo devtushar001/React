@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState } from "react";
+import './Api.css'
 
 const Api = () => {
   const [data, SetData] = useState([]);
@@ -22,8 +23,10 @@ const Api = () => {
         // console.log(a.name)
         return (
           <>
+          <div id="api-version">
             <img width="120px" src={a.image} alt="" />
             <p>{a.name}</p>
+          </div>
           </>
         )
       })
