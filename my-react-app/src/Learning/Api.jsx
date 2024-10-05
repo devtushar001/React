@@ -17,20 +17,25 @@ const Api = () => {
 
   return (
     <>
-     {
-      data.map((a, b, c) => {
-        // console.log(a);
-        // console.log(a.name)
-        return (
-          <>
-          <div id="api-version">
-            <img width="120px" src={a.image} alt="" />
-            <p>{a.name}</p>
-          </div>
-          </>
-        )
-      })
-     }
+      {
+        data.map((a, b, c) => {
+          // console.log(a);
+          // console.log(a.name)
+          return (
+            <>
+              <div id="api-version">
+                <img width="120px" src={a.image} alt="" />
+                <p>{a.name}</p>
+                <div className="button">
+                  <button>y</button>
+                  <button>x</button>
+                </div>
+
+              </div>
+            </>
+          )
+        })
+      }
     </>
   )
 }
