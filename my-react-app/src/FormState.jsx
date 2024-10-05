@@ -4,7 +4,7 @@ import { useState  } from "react";
 const FormState = () => {
   let [input,SetInput]=useState({
     name:"",
-    pass:""
+    password:""
 
   })
   function done(e){
@@ -20,7 +20,7 @@ const FormState = () => {
         <input  type='text' name='name'  value= {input.name} onChange={done}  placeholder='Enter your name'/>
         <br></br>
         <br></br>
-        <input  type='password'  name='pass' value={input.pass} onChange={done} placeholder='Enter your pass'/>
+        <input  type='password'  name='password' value={input.pass} onChange={done} placeholder='Enter your pass'/>
         <br></br>
         <br></br>
        <button> save</button>
