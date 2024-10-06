@@ -98,25 +98,108 @@
 //   )
 
 
-const array = [1, 3, 65, 43, 23, 76, 27, 83]
+// const array = [1, 3, 65, 43, 23, 76, 27, 83]
 
-array.forEach((a, b, c) => {
+// array.forEach((a, b, c) => {
   // console.log(a);
   // console.log(b);
   // console.log(c);
-  console.log(a);
-});
+//   console.log(a);
+// });
 
-array.filter((a, b, c) => {
+// array.filter((a, b, c) => {
   // console.log(a);
   // console.log(b);
   // console.log(c);
-  console.log(a);
-});
+//   console.log(a);
+// });
 
-array.map((a, b, c) => {
+// array.map((a, b, c) => {
   // console.log(a);
   // console.log(b);
   // console.log(c);
-  console.log(a);
-});
+//   console.log(a);
+// });
+
+// let promise=   new Promise((res,rej)=>{
+//   let barish=false
+//   if(barish){
+//     res()
+//   }
+// else{
+//   rej()
+// }
+
+
+// })
+// promise.then(()=>{
+//   console.log('wada pura huaaa');
+  
+// })
+// .catch(()=>{
+//   console.log('errr');
+  
+// })
+
+
+
+
+// fetch('https://jsonplaceholder.typicode.com/todos').then((res)=>{
+//   return res.json()
+
+// }).then((data)=>{
+//   console.log(data);
+  
+
+// })
+
+
+//  async function api(){
+//   try{
+//     let data=     await   fetch('https://nplaceholder.typicode.com/todos')
+//     // console.log(data);
+//     let res=    await data.json()
+//     console.log(res);
+//   }
+//   catch(err){
+//     console.log('errrr',err);
+    
+//   }
+
+      
+
+      
+
+// }
+// api()
+
+
+
+// function sum(a,b,c,...num){
+//   console.log(num[1]+num[5]);
+  
+
+// }
+// sum(2,3,4,4,5,6,7,8,9,10)
+
+
+// let arr=[1,2,3,4,5,6,7]
+// let num=[1,2,3,3,4,...arr]
+// console.log(num);
+
+
+
+// let arr=[1,2,3,4,5,5]
+// let [a,b,...c]=arr
+// console.log(c);
+
+// console.log(arr[0]);
+
+// let obj={
+//   name:"rahul",
+//   id:1
+// }
+// // console.log(obj.name);
+// let {name}=obj
+// console.log(name);
+

@@ -16,7 +16,7 @@ const UseEffect = () => {
     fetch('https://dummyjson.com/recipes').then((res) => {
       return res.json()
     }).then((data) => {
-      console.log(data)
+      // console.log(data)
     }).catch((err) => {
       console.log(err)
     })
