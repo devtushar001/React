@@ -3,38 +3,41 @@ Stage 1: React Basics
 Fundamentals of React
 -------------------------------------------------------------------------------------------------------
 
-
-  1.Setup Environment :-
+1.Setup Environment :-
     Install Node.js and npm
     Create React App (CRA) using npx create-react-app my-app
    
-  2.JSX (JavaScript XML) :-
+2.JSX (JavaScript XML) :-
     Embedding JavaScript in JSX
     JSX syntax and rules (e.g., single parent element, camelCase attributes)
     
-  3.React Components :-
+3.React Components :-
     Functional Components
     Class Components (optional, focus on functional components)
     
-  4.Props (Properties) :-
+4.Props (Properties) :-
     Passing data to components
     Prop validation with prop-types
     
-  5.State :-
+5.State :-
     Using useState for functional components
     Basics of state updates and re-rendering
     
-  6.Event Handling :-
+6.Event Handling :-
     Handling events like onClick, onChange
     Passing arguments to event handlers
     
-  7.Conditional Rendering :-
+7.Conditional Rendering :-
     Using ternary operators and logical && in JSX
     
-  8.Lists and Keys :-
+8.Lists and Keys :-
     Rendering lists with .map()
     Importance of unique keys in lists
+
+------------------------------------------------------------------------------------------------------ 
 Stage 2: Intermediate React
+-------------------------------------------------------------------------------------------------------
+
 1. Advanced State Management
 Using Multiple useState Hooks
 Managing complex states
